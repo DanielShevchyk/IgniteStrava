@@ -1,0 +1,9 @@
+[
+  {
+    "valueSource": "memory",
+    "dataType": "String",
+    "name": "AccessToken",
+    "defaultValue": "f4d5557c3aff20cf8894b696d97561f12ee76d81",
+    "tagType": "AtomicTag"
+  }
+]
