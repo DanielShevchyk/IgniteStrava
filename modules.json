@@ -1,0 +1,152 @@
+{
+  "com.inductiveautomation.alarm-notification": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Alarm Notification-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.eam": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Enterprise Administration-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.eventstream": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\EventStream-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.historian": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Historian-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.historian.sql": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\SQL Historian-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.jdbc.mariadb": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\MariaDB JDBC Driver Module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.jdbc.mssql": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\MSSQL JDBC Driver Module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.jdbc.postgresql": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\PostgreSQL JDBC Driver Module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opccom": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\OpcCom-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\OPC-UA-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.ablegacy": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Allen-Bradley Drivers-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.bacnet": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\BACnet Driver-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.dnp3": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\DNP3-Driver.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.dnp3v2": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\DNP3-Driver-v2.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.iec61850": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\IEC 61850 Driver-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.logix": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Logix Driver-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.micro800": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Micro800 Driver-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.mitsubishi": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Mitsubishi-Driver.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.modbus": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Modbus Driver v2-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.omron": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Omron-Driver.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.siemens": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Siemens Drivers-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.opcua.drivers.tcpudp": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\UDP and TCP Drivers-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.perspective": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Perspective-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.phone-notification": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Voice Notification-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.reporting": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Reporting-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.sfc": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\SFC-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.sms-notification": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\SMS Notification-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.sqlbridge": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\SQL Bridge-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.symbol-factory": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Symbol Factory-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
+  "com.inductiveautomation.vision": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Vision-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  }
+}
