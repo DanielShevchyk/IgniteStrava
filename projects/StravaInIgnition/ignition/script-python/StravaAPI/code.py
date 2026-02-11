@@ -1,16 +1,14 @@
 access_token = system.tag.readBlocking("[default]AccessToken")[0].value
 AUTH_URL = "https://www.strava.com/oauth/token"
-print access_token
+#print access_token
+client = system.net.httpClient(bypassCertValidation=True)
+headers = {'Authorization': 'Bearer ' + access_token}
 def get_athlete_profile():
     """
     Uses the access token to fetch the athlete's profile.
     
     """
     ATHLETE_URL = "https://www.strava.com/api/v3/athlete"
-    client = system.net.httpClient(bypassCertValidation=True)
-    
-    # Headers dictionary
-    headers = {'Authorization': 'Bearer ' + access_token}
     
     print "Fetching Athlete Profile..."
     response = client.get(ATHLETE_URL, headers=headers)
@@ -24,8 +22,6 @@ def get_athlete_profile():
         
 def get_activities():
 	ACTIVITIES_URL = "https://www.strava.com/api/v3/athlete/activities"
-	client = system.net.httpClient(bypassCertValidation=True)
-	headers = {'Authorization': 'Bearer ' + access_token}
 	all_activities = []
 	page_num = 1
 	per_page = 50  # Max is usually around 200, but 50 is safer/faster per request
@@ -61,3 +57,21 @@ def get_activities():
 	        
 	print "Finished. Total activities found: " + str(len(all_activities))
 	print all_activities
+def get_activities_by_id(activity_id):
+	BASE_URL = "https://www.strava.com/api/v3/activities/"
+	url = BASE_URL + str(activity_id)
+	
+	headers = {'Authorization': 'Bearer ' + access_token}
+	
+	print "Fetching details for Activity ID: " + str(activity_id) + "..."
+	response = client.get(url, headers=headers)
+	
+	if response.good:
+		json_data = system.util.jsonEncode(response.json)
+		#print json_data
+		system.tag.writeBlocking('[default]ActivityJsonReturn', json_data)
+		return response.json
+	else:
+	    print "Error fetching activity: " + str(response.statusCode)
+	    print response.text
+	    return None
