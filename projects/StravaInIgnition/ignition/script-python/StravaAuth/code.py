@@ -19,13 +19,13 @@ REFRESH_TOKEN = pyPlaintext.getSecretAsString()
 # Strava API Endpoints. Shouldn't change unless Strava updates their API to v4, etc.
 AUTH_URL = "https://www.strava.com/oauth/token"
 ATHLETE_URL = "https://www.strava.com/api/v3/athlete"
-
+client = system.net.httpClient(bypassCertValidation=True) #Bypassing cert validation. Might want to change
 def get_access_token():
     """
     Exchanges the long-lived refresh token for a short-lived access token.
     Uses system.net.httpClient
     """
-    client = system.net.httpClient(bypassCertValidation=True) #Bypassing cert validation!
+
     
     payload = {
         'client_id': CLIENT_ID,
@@ -39,16 +39,14 @@ def get_access_token():
     
     response = client.post(AUTH_URL, data=payload)
     
-    # Check if request was successful (200-299 range)
     if response.good:
-        # In Ignition, .json is a PROPERTY, not a function!
         token_data = response.json
         access_token = token_data.get('access_token')
         print "Success! Access Token received.\n"
         return access_token
     else:
         print "Error authenticating: " + str(response.statusCode)
-        print response.text # Print raw response text for debugging
+        #print response.text
         return None
 
 def main():

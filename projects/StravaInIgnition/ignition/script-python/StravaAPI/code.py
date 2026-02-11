@@ -24,7 +24,7 @@ def get_activities():
 	ACTIVITIES_URL = "https://www.strava.com/api/v3/athlete/activities"
 	all_activities = []
 	page_num = 1
-	per_page = 50  # Max is usually around 200, but 50 is safer/faster per request
+	per_page = 50  # Max is usually around 200
 	keep_fetching = True
 	
 	print "Starting to fetch activities..."
@@ -32,23 +32,19 @@ def get_activities():
 	while keep_fetching:
 	    print "Fetching page " + str(page_num) + "..."
 	    
-	    # We pass parameters to control which page we are viewing
 	    params = {
 	        "page": page_num,
 	        "per_page": per_page
 	    }
 	    
-	    # Ignition's client.get supports the 'params' keyword arg
 	    response = client.get(ACTIVITIES_URL, params=params, headers=headers)
 	    
 	    if response.good:
 	        page_data = response.json
 	        
-	        # If the list is empty, we have reached the end of the history
 	        if len(page_data) == 0:
 	            keep_fetching = False
 	        else:
-	            # Add this page's activities to our master list
 	            all_activities.extend(page_data)
 	            page_num += 1
 	    else:
