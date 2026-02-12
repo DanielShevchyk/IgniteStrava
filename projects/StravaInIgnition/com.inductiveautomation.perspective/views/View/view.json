@@ -1,0 +1,142 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 794,
+      "width": 1259
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Dropdown"
+        },
+        "position": {
+          "basis": "36px"
+        },
+        "propConfig": {
+          "props.options": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Strava/ActivitiesMetaData/ArrayOfActivitiesID"
+              },
+              "transforms": [
+                {
+                  "code": "\toptions \u003d []\n\t\n\t# Add a default \"Select\"\n\toptions.append({\n\t    \"value\": None,\n\t    \"label\": \"Select an Activity...\"\n\t})\n\t\n\tif value:\n\t    for activity_id in value:\n\t        \n\t        option_entry \u003d {\n\t            \"value\": activity_id,          \n\t            \"label\": str(activity_id)       \n\t        }\n\t        \n\t        options.append(option_entry)\n\t\n\treturn options",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "value": "12029670662"
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "Map"
+        },
+        "position": {
+          "basis": "794px"
+        },
+        "propConfig": {
+          "props.layers.vector.polyline": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "value": "{../Dropdown.props.value}"
+                },
+                "tagPath": "[default]Strava/Activities/{value}"
+              },
+              "transforms": [
+                {
+                  "code": "\tmap_data \u003d value.get(\u0027map\u0027, {})\n\tencoded_string \u003d map_data.get(\u0027polyline\u0027, None) or map_data.get(\u0027summary_polyline\u0027, None)\n\tpoints_list \u003d []\n\t\n\t#Decode\n\tif encoded_string:\n\t    # Use your library script to decode (returns [[lat, lng], ...])\n\t    # Make sure to replace \u0027mapFunctions\u0027 with your actual script name\n\t    raw_coords \u003d mapFunctions.decode_polyline(encoded_string)\n\t    \n\t    # Format as objects: {\"lat\": x, \"lng\": y}\n\t    points_list \u003d [{\u0027lat\u0027: c[0], \u0027lng\u0027: c[1]} for c in raw_coords]\n\t\n\t# Construct the COMPLETE structure based on your working JSON\n\tlayer_configuration \u003d {\n\t    \"polylines\": [\n\t        {\n\t            \"name\": \"Run Route\",\n\t            \"points\": points_list\n\t        }\n\t    ],\n\t    \"smoothFactor\": 1,\n\t    \"noClip\": False,\n\t    \"event\": {\n\t        \"stopPropagation\": False\n\t    },\n\t    \"stroke\": {\n\t        \"enabled\": True,\n\t        \"color\": \"#FC4C02\",  #orange\n\t        \"weight\": 3,\n\t        \"opacity\": 1,\n\t        \"dashArray\": \"\",\n\t        \"dashOffset\": \"\",\n\t        \"lineCap\": \"round\",\n\t        \"lineJoin\": \"round\"\n\t    },\n\t    \"fill\": {\n\t        \"enabled\": False,    \n\t        \"color\": \"\",\n\t        \"opacity\": 1,\n\t        \"rule\": \"nonzero\"\n\t    }\n\t}\n\t\n\treturn [layer_configuration]",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "init": {
+            "center": {
+              "lat": 38.660867,
+              "lng": -121.159728
+            },
+            "zoom": 13
+          },
+          "layers": {
+            "raster": {
+              "tile": [
+                {
+                  "WMS": {
+                    "format": "image/jpeg",
+                    "layers": "",
+                    "styles": "",
+                    "transparent": false,
+                    "uppercase": false,
+                    "version": "1.1.1"
+                  },
+                  "options": {
+                    "attribution": "Map data \u0026copy; \u003ca href\u003d\u0027https://www.openstreetmap.org/\u0027\u003eOpenStreetMap\u003c/a\u003e contributors, \u003ca href\u003d\u0027https://creativecommons.org/licenses/by-sa/2.0/\u0027\u003eCC-BY-SA\u003c/a\u003e",
+                    "crossOrigin": false,
+                    "detectRetina": false,
+                    "errorTileUrl": "",
+                    "opacity": 1,
+                    "subdomains": [
+                      "a",
+                      "b",
+                      "c"
+                    ],
+                    "tileSize": {
+                      "height": 256,
+                      "width": 256
+                    },
+                    "tms": false,
+                    "update": {
+                      "interval": 200,
+                      "whenIdle": false,
+                      "whenZooming": true
+                    },
+                    "zIndex": 1,
+                    "zoom": {
+                      "max": 18,
+                      "min": 0,
+                      "native": {
+                        "max": null,
+                        "min": null
+                      },
+                      "offset": 0,
+                      "reverse": false
+                    }
+                  },
+                  "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                  "urlTemplateParams": {}
+                }
+              ]
+            },
+            "vector": {}
+          }
+        },
+        "type": "ia.display.map"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

@@ -1,16 +1,14 @@
 access_token = system.tag.readBlocking("[default]AccessToken")[0].value
 AUTH_URL = "https://www.strava.com/oauth/token"
 print access_token
+client = system.net.httpClient(bypassCertValidation=True)
+headers = {'Authorization': 'Bearer ' + access_token}
 def get_athlete_profile():
     """
     Uses the access token to fetch the athlete's profile.
     
     """
     ATHLETE_URL = "https://www.strava.com/api/v3/athlete"
-    client = system.net.httpClient(bypassCertValidation=True)
-    
-    # Headers dictionary
-    headers = {'Authorization': 'Bearer ' + access_token}
     
     print "Fetching Athlete Profile..."
     response = client.get(ATHLETE_URL, headers=headers)
@@ -24,11 +22,9 @@ def get_athlete_profile():
         
 def get_activities():
 	ACTIVITIES_URL = "https://www.strava.com/api/v3/athlete/activities"
-	client = system.net.httpClient(bypassCertValidation=True)
-	headers = {'Authorization': 'Bearer ' + access_token}
 	all_activities = []
 	page_num = 1
-	per_page = 50  # Max is usually around 200, but 50 is safer/faster per request
+	per_page = 50  # Max is usually around 200
 	keep_fetching = True
 	
 	print "Starting to fetch activities..."
@@ -36,23 +32,19 @@ def get_activities():
 	while keep_fetching:
 	    print "Fetching page " + str(page_num) + "..."
 	    
-	    # We pass parameters to control which page we are viewing
 	    params = {
 	        "page": page_num,
 	        "per_page": per_page
 	    }
 	    
-	    # Ignition's client.get supports the 'params' keyword arg
 	    response = client.get(ACTIVITIES_URL, params=params, headers=headers)
 	    
 	    if response.good:
 	        page_data = response.json
 	        
-	        # If the list is empty, we have reached the end of the history
 	        if len(page_data) == 0:
 	            keep_fetching = False
 	        else:
-	            # Add this page's activities to our master list
 	            all_activities.extend(page_data)
 	            page_num += 1
 	    else:
@@ -60,4 +52,22 @@ def get_activities():
 	        keep_fetching = False
 	        
 	print "Finished. Total activities found: " + str(len(all_activities))
-	print all_activities
+	return all_activities
+def get_activities_by_id(activity_id):
+	BASE_URL = "https://www.strava.com/api/v3/activities/"
+	url = BASE_URL + str(activity_id)
+	
+	headers = {'Authorization': 'Bearer ' + access_token}
+	
+	print "Fetching details for Activity ID: " + str(activity_id) + "..."
+	response = client.get(url, headers=headers)
+	
+	if response.good:
+		json_data = system.util.jsonEncode(response.json)
+		#print json_data
+		system.tag.writeBlocking('[default]ActivityJsonReturn', json_data)
+		return response.json
+	else:
+	    print "Error fetching activity: " + str(response.statusCode)
+	    print response.text
+	    return None

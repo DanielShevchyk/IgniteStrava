@@ -1,0 +1,39 @@
+{
+  "profile": {
+    "type": "internal"
+  },
+  "settings": {
+    "secrets": {
+      "Client_ID": {
+        "ciphertext": {
+          "ciphertext": "b7G5QVqptQo",
+          "encrypted_key": "DznVuI78C56yv6JDdOhotkNC1TOBceXXprsPkfbqPAmSJTjvhv9nCA",
+          "iv": "igZkv4hWlhs_ULCo",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzcwODM3ODk1LCJ6aXAiOiJERUYifQ",
+          "tag": "fh9dMZELU4YDrbsgO4DFiQ"
+        },
+        "description": ""
+      },
+      "Client_Secret": {
+        "ciphertext": {
+          "ciphertext": "wNziE2Q1DZnVW1Ss_js-kpOTNmBaspZOa7J6BwHGQvJLCsHXM5Y",
+          "encrypted_key": "fG0b8cnZhk8D7_vSBjMDEUGck6VY-k5YpBYcuCmwic2vP95uixkmRA",
+          "iv": "OTYw833UUWdPASWf",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzcwODM3OTA5LCJ6aXAiOiJERUYifQ",
+          "tag": "66mHpSeMS6uYzom2tl7cxg"
+        },
+        "description": ""
+      },
+      "PermRefresh": {
+        "ciphertext": {
+          "ciphertext": "eCPlJcjiUS-w7Q7TObM3XFrPbQ6ebzje6eRPUMDeBQMUubekVfmFEw",
+          "encrypted_key": "0Lk5T1avvZGB2Y7-s63HWRsvzTORmDQriulpJi7XmK7FiQPwUrZbIg",
+          "iv": "tKeufZAKdXWXsN-Y",
+          "protected": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIiwiaWF0IjoxNzcwODM4MDcwLCJ6aXAiOiJERUYifQ",
+          "tag": "vp9CobtN9i-pkWy_ZFeBKw"
+        },
+        "description": ""
+      }
+    }
+  }
+}
