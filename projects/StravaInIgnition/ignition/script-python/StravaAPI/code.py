@@ -52,7 +52,7 @@ def get_activities():
 	        keep_fetching = False
 	        
 	print "Finished. Total activities found: " + str(len(all_activities))
-	print all_activities
+	return all_activities
 def get_activities_by_id(activity_id):
 	BASE_URL = "https://www.strava.com/api/v3/activities/"
 	url = BASE_URL + str(activity_id)

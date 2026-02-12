@@ -14,7 +14,7 @@
           "name": "Map"
         },
         "position": {
-          "basis": "639px"
+          "basis": "794px"
         },
         "propConfig": {
           "props.layers.vector.polyline": {
