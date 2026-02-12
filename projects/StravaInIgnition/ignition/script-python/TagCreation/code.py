@@ -14,14 +14,12 @@ def create_activity_tags(activities_list):
         # Name will be activity ID
         act_id = str(activity.get('id'))
         
-        json_data = system.util.jsonEncode(activity)
-        
         tag_def = {
             "name": act_id,
             "tagType": "AtomicTag",    # Standard tag type
             "dataType": "Document",    # Specifically for JSON
             "valueSource": "memory",   # We are writing to it
-            "value": json_data         # <--- Sets the value upon creation!
+            "value": activity        # <--- Sets the value upon creation!
         }
         
         tag_configs.append(tag_def)
