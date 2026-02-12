@@ -19,7 +19,7 @@
   "scheduledBackupFilename": "${gatewayName}_Ignition-backup-${edition}${timestamp}.gwbk",
   "scheduledBackupRetentionCount": 5,
   "scheduledBackupTimes": "15 1 * * *",
-  "scheduledBackupsEnabled": false,
+  "scheduledBackupsEnabled": true,
   "scriptMessageEncoding": "Protobuf",
   "secondsBeforeFailover": 60,
   "systemName": "Ignition-SU-6B96NF3-WS",
