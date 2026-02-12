@@ -35,7 +35,7 @@
           }
         },
         "props": {
-          "value": "17366810885"
+          "value": "13996161977"
         },
         "type": "ia.input.dropdown"
       },
@@ -51,8 +51,11 @@
             "binding": {
               "config": {
                 "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]Strava/Activities/16154563076"
+                "mode": "indirect",
+                "references": {
+                  "value": "{../Dropdown.props.value}"
+                },
+                "tagPath": "[default]Strava/Activities/{value}"
               },
               "transforms": [
                 {
