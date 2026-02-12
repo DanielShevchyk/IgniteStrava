@@ -11,6 +11,36 @@
     "children": [
       {
         "meta": {
+          "name": "Dropdown"
+        },
+        "position": {
+          "basis": "36px"
+        },
+        "propConfig": {
+          "props.options": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Strava/ActivitiesMetaData/ArrayOfActivitiesID"
+              },
+              "transforms": [
+                {
+                  "code": "\toptions \u003d []\n\t\n\t# Add a default \"Select\"\n\toptions.append({\n\t    \"value\": None,\n\t    \"label\": \"Select an Activity...\"\n\t})\n\t\n\tif value:\n\t    for activity_id in value:\n\t        \n\t        option_entry \u003d {\n\t            \"value\": activity_id,          \n\t            \"label\": str(activity_id)       \n\t        }\n\t        \n\t        options.append(option_entry)\n\t\n\treturn options",
+                  "type": "script"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "value": "17366810885"
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
           "name": "Map"
         },
         "position": {

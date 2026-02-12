@@ -1,6 +1,6 @@
 access_token = system.tag.readBlocking("[default]AccessToken")[0].value
 AUTH_URL = "https://www.strava.com/oauth/token"
-#print access_token
+print access_token
 client = system.net.httpClient(bypassCertValidation=True)
 headers = {'Authorization': 'Bearer ' + access_token}
 def get_athlete_profile():
