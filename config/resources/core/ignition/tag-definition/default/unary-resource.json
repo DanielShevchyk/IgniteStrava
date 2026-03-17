@@ -4,7 +4,8 @@
   "restricted": false,
   "overridable": true,
   "files": [
-    "tags.json"
+    "tags.json",
+    "udts.json"
   ],
   "attributes": {
     "config": {}

@@ -1,7 +1,6 @@
 [
   {
     "name": "GitContext",
-    "typeId": null,
     "tagType": "UdtType",
     "tags": [
       {
@@ -18,6 +17,12 @@
       },
       {
         "valueSource": "memory",
+        "dataType": "DateTime",
+        "name": "CommitDate",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
         "dataType": "String",
         "name": "CommitHash",
         "tagType": "AtomicTag"
@@ -30,9 +35,32 @@
       },
       {
         "valueSource": "memory",
+        "dataType": "Int4",
+        "name": "CommitsBehind",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "Boolean",
+        "name": "IsDirty",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
         "dataType": "DateTime",
         "name": "LastUpdate",
-        "formatString": "yyyy-MM-dd h:mm:ss aa",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "String",
+        "name": "LatestRelease",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "String",
+        "name": "RemoteURL",
         "tagType": "AtomicTag"
       }
     ]
