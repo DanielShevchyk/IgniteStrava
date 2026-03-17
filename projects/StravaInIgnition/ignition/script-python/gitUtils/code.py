@@ -7,13 +7,13 @@ def updateGitTags(tag_provider="default", instance_name="GitInfo"):
     repo_path = "C:\Users\dshevchyk\Desktop\PersonalProjects\IgniteStrava\data\projects\StravaInIgnition"
     logger = system.util.getLogger("GitUtils")
     
-    # --- 1. Ensure UDT Definition and Instance Exist ---
+    #UDT/Instance checker params
     base_provider = "[{}]".format(tag_provider)
     udt_name = "GitContext"
     udt_def_path = "{}_types_/{}".format(base_provider, udt_name)
     instance_path = "{}{}".format(base_provider, instance_name)
     
-    # Check if the UDT Definition exists; if not, build it.
+    #Check if exist, if not, create
     if not system.tag.exists(udt_def_path):
         logger.info("UDT Definition '{}' not found. Creating it...".format(udt_name))
         udt_def = {
@@ -32,10 +32,8 @@ def updateGitTags(tag_provider="default", instance_name="GitInfo"):
                 {"name": "RemoteURL", "valueSource": "memory", "dataType": "String"}
             ]
         }
-        # Write the definition to the provider's data types folder
         system.tag.configure("{}_types_".format(base_provider), [udt_def], "m")
         
-    # Check if the UDT Instance exists; if not, build it.
     if not system.tag.exists(instance_path):
         logger.info("UDT Instance '{}' not found. Creating it...".format(instance_name))
         udt_instance = {
@@ -43,14 +41,10 @@ def updateGitTags(tag_provider="default", instance_name="GitInfo"):
             "typeId": udt_name,
             "tagType": "UdtInstance"
         }
-        # Create the instance in the root of the tag provider
         system.tag.configure(base_provider, [udt_instance], "m")
         
-        # Give the Ignition Tag Engine a tiny fraction of a second to initialize the new tags
-        # before we attempt to write to them at the end of this script.
         time.sleep(0.5)
 
-    # --- 2. Helper Function for Git ---
     def run_git_cmd(cmd):
         try:
             p = subprocess.Popen(cmd, cwd=repo_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -64,21 +58,17 @@ def updateGitTags(tag_provider="default", instance_name="GitInfo"):
             logger.error("Exception running Git: " + str(e))
             return None
 
-    # --- 3. Gather Git Info ---
     branch = run_git_cmd(["git", "rev-parse", "--abbrev-ref", "HEAD"]) or "Unknown"
     commit_hash = run_git_cmd(["git", "rev-parse", "--short", "HEAD"]) or "Unknown"
     commit_msg = run_git_cmd(["git", "log", "-1", "--pretty=%B"]) or "Unknown"
     author = run_git_cmd(["git", "log", "-1", "--pretty=%an"]) or "Unknown"
-    
     status_out = run_git_cmd(["git", "status", "--porcelain"])
     is_dirty = True if status_out else False
-    
     latest_release = run_git_cmd(["git", "describe", "--tags", "--abbrev=0"]) or "No Tags"
-    
     behind_str = run_git_cmd(["git", "rev-list", "--count", "HEAD..@{u}"])
     commits_behind = int(behind_str) if behind_str and behind_str.isdigit() else 0
-    
     commit_unix = run_git_cmd(["git", "log", "-1", "--format=%ct"])
+    
     if commit_unix and commit_unix.isdigit():
         commit_date = system.date.fromMillis(int(commit_unix) * 1000)
     else:
@@ -86,7 +76,7 @@ def updateGitTags(tag_provider="default", instance_name="GitInfo"):
         
     remote_url = run_git_cmd(["git", "config", "--get", "remote.origin.url"]) or "Unknown"
 
-    # --- 4. Write Values to Tags ---
+   #Write
     paths = [
         instance_path + "/Branch",
         instance_path + "/CommitHash",
