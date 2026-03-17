@@ -12,5 +12,3 @@ Current Capabilities:
 
 Ultimate goal is to have it become an exchange project that can be easily configured for anybody's account.
   - Design considerations are shaped off this point. Plus, API limitations that strava has for the free account. A lot of tag creation/storage for data because of these two points.
-
-AI was used for parts of the project. 
