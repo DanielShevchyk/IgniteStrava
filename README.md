@@ -1,6 +1,6 @@
-This is a Strava project built in Ignition.
-Oauth Secrets managed in 8.3 embedded secrets.
+This is a Strava Visualizer project built in Ignition.
 Currently pulls Strava API v3 data within ignition scripting.
+
 Current Capabilities:
 - Able to decode and visualize polyline into generic leaflet map components in its current state.
 - Able to select all activities for a athlete and visualize its own poly map. Additional data in barebones preview is also available such as activity type, max speed, distance, etc.
