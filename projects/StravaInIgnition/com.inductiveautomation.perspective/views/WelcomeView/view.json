@@ -1,0 +1,105 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 1080,
+      "width": 1920
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "100px"
+        },
+        "props": {
+          "text": "Welcome to Dan\u0027s Strava Visualizer",
+          "textStyle": {
+            "fontFamily": "Roboto",
+            "fontSize": 50,
+            "textAlign": "center"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Strava_Logo_svg"
+        },
+        "position": {
+          "basis": "50px"
+        },
+        "props": {
+          "fit": {
+            "mode": "contain"
+          },
+          "source": "/system/images/MyImages/Strava_Logo.svg.png"
+        },
+        "type": "ia.display.image"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label_0"
+            },
+            "position": {
+              "basis": "158px"
+            },
+            "props": {
+              "text": "Current Build",
+              "textStyle": {
+                "fontFamily": "Roboto",
+                "fontSize": 20,
+                "textAlign": "Left"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": "200px"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "props": {
+              "text": "Label"
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "100px"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

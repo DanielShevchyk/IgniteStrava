@@ -2,25 +2,37 @@
   {
     "valueSource": "memory",
     "dataType": "Document",
+    "name": "17366810885",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
     "name": "16154563076",
     "tagType": "AtomicTag"
   },
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "16428249233",
+    "name": "12550621274",
     "tagType": "AtomicTag"
   },
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "16152304485",
+    "name": "14707548027",
     "tagType": "AtomicTag"
   },
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "15301351614",
+    "name": "14831380320",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15125459495",
     "tagType": "AtomicTag"
   },
   {
@@ -32,13 +44,717 @@
   {
     "valueSource": "memory",
     "dataType": "Document",
+    "name": "13780857730",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17276087944",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "11848559537",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14986754937",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17498270257",
+    "defaultValue": {
+      "comment_count": 0,
+      "has_kudoed": false,
+      "type": "Run",
+      "end_latlng": [
+        38.713482,
+        -121.25752
+      ],
+      "upload_id_str": "18595645974",
+      "id": 17498270257,
+      "kudos_count": 0,
+      "visibility": "everyone",
+      "athlete": {
+        "resource_state": 1,
+        "id": 141964929
+      },
+      "athlete_count": 1,
+      "resource_state": 2,
+      "max_speed": 4.52,
+      "from_accepted_tag": false,
+      "start_latlng": [
+        38.713253,
+        -121.257053
+      ],
+      "achievement_count": 0,
+      "name": "Lunch Run",
+      "commute": false,
+      "utc_offset": -28800.0,
+      "private": false,
+      "upload_id": 18595645974,
+      "distance": 2448.3,
+      "location_country": null,
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "has_heartrate": false,
+      "external_id": "DC96C9B6-4CDE-49F2-AE63-152AA384B583-activity.fit",
+      "location_state": null,
+      "manual": false,
+      "gear_id": null,
+      "elev_low": 55.7,
+      "device_name": "Strava App",
+      "flagged": false,
+      "trainer": false,
+      "location_city": null,
+      "workout_type": 0,
+      "total_photo_count": 0,
+      "elapsed_time": 862,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "map": {
+        "resource_state": 2,
+        "summary_polyline": "k_hkFzracVb@[FKFAZSDIZSXO?@DACOS]KCK]Ga@]e@Mg@Ya@_@uAKUEGa@kAg@}@q@kBs@_BQw@qAcDm@wBYs@AIYe@EWQg@S_@AIGIAKKIIWYc@IYECYs@]m@O_@COIKCKYm@IKm@wABPFFbAtB@HjCtFBJ\\h@h@bB\\p@~@|Cz@vBX~@Hb@d@fANTj@~An@lATr@Rb@l@rB^z@X\\DNNn@?d@EFKD[VOx@ILUBKFaAv@",
+        "id": "a17498270257"
+      },
+      "average_speed": 2.857,
+      "moving_time": 857,
+      "sport_type": "Run",
+      "start_date": "2026-02-23T20:00:45Z",
+      "pr_count": 0,
+      "start_date_local": "2026-02-23T12:00:45Z",
+      "total_elevation_gain": 7.9,
+      "photo_count": 0,
+      "elev_high": 60.9
+    },
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15136739756",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15213190235",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14481468498",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13800026285",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17062440704",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "11904968879",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13902602196",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14914684584",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14768981446",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17498107701",
+    "defaultValue": {
+      "comment_count": 0,
+      "has_kudoed": false,
+      "type": "Run",
+      "end_latlng": [
+        38.651564,
+        -121.189861
+      ],
+      "upload_id_str": "18595484291",
+      "id": 17498107701,
+      "kudos_count": 0,
+      "visibility": "everyone",
+      "athlete": {
+        "resource_state": 1,
+        "id": 141964929
+      },
+      "athlete_count": 1,
+      "resource_state": 2,
+      "max_speed": 5.26,
+      "from_accepted_tag": false,
+      "start_latlng": [
+        38.651617,
+        -121.189914
+      ],
+      "achievement_count": 0,
+      "name": "Lunch Run",
+      "commute": false,
+      "utc_offset": -28800.0,
+      "private": false,
+      "upload_id": 18595484291,
+      "distance": 2632.3,
+      "location_country": null,
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "has_heartrate": false,
+      "external_id": "7081ECAF-ECE9-486D-B59C-D976A6327B0F-activity.fit",
+      "location_state": null,
+      "manual": false,
+      "gear_id": null,
+      "elev_low": 40.4,
+      "device_name": "Strava App",
+      "flagged": false,
+      "trainer": false,
+      "location_city": null,
+      "workout_type": null,
+      "total_photo_count": 0,
+      "elapsed_time": 344793,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "map": {
+        "resource_state": 2,
+        "summary_polyline": "}e|jFb`ubVMPy@xAOHi@MaA_@iAYO@WCuASe@Fs@Bc@Ja@Aq@Qc@OWKm@y@SI_ALi@AaA[qAOq@?WEYOKKWaAYS_@Mu@II@QEs@Qa@WWIc@GI?SGM@y@Oa@KmAe@KAGEMAMCo@WWG{@IUEUAe@Ig@U]IqAc@q@_@VTZDp@RXLRBz@^pCZnAd@J@HDj@JLH^JTL~Cb@|@`@b@Jb@DL?n@LXNVXHf@HT^PTDXA`@Dj@D`@Fz@VVDd@C\\KR@PH\\`@@HLJlAd@P@FD`@DNAFGTIZBHCb@AFERHDC`@HF?LDL?NBBC\\F\\J^Hp@Tr@PHADELUJKJYXc@TU",
+        "id": "a17498107701"
+      },
+      "average_speed": 2.896,
+      "moving_time": 909,
+      "sport_type": "Run",
+      "start_date": "2026-02-19T20:13:35Z",
+      "pr_count": 0,
+      "start_date_local": "2026-02-19T12:13:35Z",
+      "total_elevation_gain": 8.1,
+      "photo_count": 0,
+      "elev_high": 45.6
+    },
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14716923439",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16088595932",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13183852258",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14684430691",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13735757433",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17701073660",
+    "defaultValue": {
+      "comment_count": 0,
+      "has_kudoed": false,
+      "type": "Run",
+      "end_latlng": [
+        38.653673,
+        -121.181781
+      ],
+      "upload_id_str": "18799574084",
+      "id": 17701073660,
+      "kudos_count": 0,
+      "visibility": "everyone",
+      "athlete": {
+        "resource_state": 1,
+        "id": 141964929
+      },
+      "athlete_count": 1,
+      "resource_state": 2,
+      "max_speed": 5.6,
+      "from_accepted_tag": false,
+      "start_latlng": [
+        38.65208,
+        -121.19066
+      ],
+      "achievement_count": 0,
+      "name": "Lunch Run",
+      "commute": false,
+      "utc_offset": -25200.0,
+      "private": false,
+      "upload_id": 18799574084,
+      "distance": 3243.2,
+      "location_country": null,
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "has_heartrate": false,
+      "external_id": "8CE45D5D-F903-47A4-ABD7-045FBD20B58C-activity.fit",
+      "location_state": null,
+      "manual": false,
+      "gear_id": null,
+      "elev_low": 40.4,
+      "device_name": "Strava App",
+      "flagged": false,
+      "trainer": false,
+      "location_city": null,
+      "workout_type": null,
+      "total_photo_count": 0,
+      "elapsed_time": 1142,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "map": {
+        "resource_state": 2,
+        "summary_polyline": "oj|jF|bubV{Bk@q@Gm@IE@c@E[Fs@BKD]DSCQCKGI@sAg@[e@]WQAm@La@?g@QK?EEe@MaAGICs@?a@SKIKSI_@_@_@{@Wg@Cc@I_@MUO[MyBWECYG[MDEHB@DHDxAX^D\\@RHXPXL|@Nd@?HFJ@PHPDPNHNRx@p@VZBNApAJZFx@XZ@TCVI\\@DB^d@RRVHPJfAZb@?b@M^?^G\\@|ARX?XFNH`ATPHVHVDJ?FANa@LOP]h@m@NUVcAJK^WTCN@RE~Au@RKLQHSBSFCXCVG`@u@VDLCD[E[GOE[@UBCLG^@h@LPQf@YGMCMGEIUKm@?OCKCUGWGu@?k@Bk@Ae@Ha@AQB[Ig@Wk@@YDMJGF?FADINEDGDYAQ_AeBs@gAWe@AIY[OKg@Ok@?e@EmAq@}@WGSa@w@Oo@GQWGG@EAIAMBKHKB",
+        "id": "a17701073660"
+      },
+      "average_speed": 2.878,
+      "moving_time": 1127,
+      "sport_type": "Run",
+      "start_date": "2026-03-12T19:49:37Z",
+      "pr_count": 0,
+      "start_date_local": "2026-03-12T12:49:37Z",
+      "total_elevation_gain": 17.9,
+      "photo_count": 0,
+      "elev_high": 49.0
+    },
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17676470885",
+    "defaultValue": {
+      "comment_count": 0,
+      "has_kudoed": false,
+      "type": "Run",
+      "end_latlng": [
+        38.653435,
+        -121.181788
+      ],
+      "upload_id_str": "18774880418",
+      "id": 17676470885,
+      "kudos_count": 0,
+      "visibility": "everyone",
+      "athlete": {
+        "resource_state": 1,
+        "id": 141964929
+      },
+      "athlete_count": 1,
+      "resource_state": 2,
+      "max_speed": 5.56,
+      "from_accepted_tag": false,
+      "start_latlng": [
+        38.651591,
+        -121.190014
+      ],
+      "achievement_count": 1,
+      "name": "Lunch Run",
+      "commute": false,
+      "utc_offset": -28800.0,
+      "private": false,
+      "upload_id": 18774880418,
+      "distance": 2190.4,
+      "location_country": null,
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "has_heartrate": false,
+      "external_id": "BE98B5ED-51C0-4F1D-9B80-BABDDB81976C-activity.fit",
+      "location_state": null,
+      "manual": false,
+      "gear_id": null,
+      "elev_low": 40.4,
+      "device_name": "Strava App",
+      "flagged": false,
+      "trainer": false,
+      "location_city": null,
+      "workout_type": null,
+      "total_photo_count": 0,
+      "elapsed_time": 739,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "map": {
+        "resource_state": 2,
+        "summary_polyline": "af|jFj`ubV[\\a@~@CBOFu@OWM]G{@[y@Cu@O[CcBNa@Hy@Ms@UIEHAf@TJ@d@NV@FAPIb@G\\?d@GnARj@@n@NHFVBr@Vh@LPAHIPa@j@{@\\_@N[Ls@LQLIb@I\\?JIF?PIZQb@Q^WDKLg@RER@HELOL_@JILANFJIBIA_@Qe@AQDQBEVA~@LHMTKJMHA@CYs@Ea@Y}AIo@Ac@DaACUDOBE?MCM?YEW@USq@@YHKXKRQFIAWEOe@eAKO}@_B]k@]_@m@QOAO@OAO?MA_@Qg@]QIa@GOKUe@IIWgAUQMCK@",
+        "id": "a17676470885"
+      },
+      "average_speed": 3.042,
+      "moving_time": 720,
+      "sport_type": "Run",
+      "start_date": "2026-02-24T20:13:01Z",
+      "pr_count": 0,
+      "start_date_local": "2026-02-24T12:13:01Z",
+      "total_elevation_gain": 15.9,
+      "photo_count": 0,
+      "elev_high": 48.7
+    },
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16152304485",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16508118940",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16761648500",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14390362201",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17157976562",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15913755695",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12088881507",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14327198261",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13929791428",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13717245689",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14061852567",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15925183416",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13102153268",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16428249233",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
     "name": "17354963269",
     "tagType": "AtomicTag"
   },
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "16770530508",
+    "name": "13985658550",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13356163738",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15596293965",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16438947215",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "11979543997",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15301351614",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16428410828",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12029670662",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14112259493",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12901654840",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17433388750",
+    "defaultValue": {
+      "utc_offset": -28800.0,
+      "comment_count": 0,
+      "private": false,
+      "upload_id": 18530475116,
+      "distance": 1668.9,
+      "location_country": null,
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "has_kudoed": false,
+      "has_heartrate": false,
+      "external_id": "93956F43-1DF3-432F-9FBA-0E84CAA3A6E1-activity.fit",
+      "type": "Walk",
+      "location_state": null,
+      "manual": false,
+      "gear_id": null,
+      "elev_low": 43.1,
+      "device_name": "Strava App",
+      "flagged": false,
+      "end_latlng": [
+        38.652307,
+        -121.190048
+      ],
+      "trainer": false,
+      "location_city": null,
+      "upload_id_str": "18530475116",
+      "total_photo_count": 0,
+      "elapsed_time": 3217,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "id": 17433388750,
+      "kudos_count": 0,
+      "map": {
+        "resource_state": 2,
+        "summary_polyline": "{p|jFjosbVOZOR?^CN@JBHFFPZHFPZPLT`@VVVPNDBFJBFJR@LFJB^Aj@Dn@LPFn@^p@t@N\\LRZrA@PJf@Fv@Bf@?`@",
+        "id": "a17433388750"
+      },
+      "average_speed": 1.867,
+      "moving_time": 894,
+      "sport_type": "Walk",
+      "start_date": "2026-02-11T21:01:00Z",
+      "pr_count": 0,
+      "visibility": "everyone",
+      "athlete": {
+        "resource_state": 1,
+        "id": 141964929
+      },
+      "athlete_count": 1,
+      "resource_state": 2,
+      "start_date_local": "2026-02-11T13:01:00Z",
+      "max_speed": 11.72,
+      "total_elevation_gain": 14.2,
+      "from_accepted_tag": false,
+      "start_latlng": [
+        38.653695,
+        -121.181956
+      ],
+      "photo_count": 0,
+      "elev_high": 49.1,
+      "achievement_count": 0,
+      "name": "Afternoon Walk",
+      "commute": false
+    },
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16779496444",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14258464143",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14841874850",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17355106211",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12886214055",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14684522474",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15356317190",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12908461123",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12728409120",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15224278825",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14419290210",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14470588235",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16285037465",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13717057938",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12608231878",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "12719834403",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14532476929",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15868290837",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14187709195",
     "tagType": "AtomicTag"
   },
   {
@@ -56,114 +772,6 @@
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "14187709195",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14112259493",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14716923439",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12728409120",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14697431943",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16088595932",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14684522474",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12029670662",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14130443805",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12719834403",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16438947215",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "17276087944",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "17039045355",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12886214055",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12908461123",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15136739756",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13800026285",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13726440192",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
     "name": "16163088843",
     "tagType": "AtomicTag"
   },
@@ -176,127 +784,19 @@
   {
     "valueSource": "memory",
     "dataType": "Document",
+    "name": "13809118203",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14697431943",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
     "name": "13655565801",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16508118940",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15868461122",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15868290837",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15213190235",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14315079214",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "17355106211",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13735757433",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14390362201",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14914684584",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13356163738",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "17062440704",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14831380320",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "11979543997",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12550621274",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "11848559537",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14886181291",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "17157976562",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14841874850",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13717245689",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13780857730",
     "tagType": "AtomicTag"
   },
   {
@@ -308,205 +808,7 @@
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "14061852567",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14768981446",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15224278825",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "17366810885",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13902602196",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14707548027",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14532476929",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16428410828",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15356317190",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14481468498",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14327198261",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15913755695",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "11980119169",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14419290210",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16761648500",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13996161977",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13183852258",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "11904968879",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15596293965",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15368722310",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15201377495",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14986754937",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
     "name": "15061828308",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14462290294",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16779496444",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16285037465",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13809118203",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14553803639",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14831561614",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13717057938",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "16508017910",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13102153268",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14470588235",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12088881507",
     "tagType": "AtomicTag"
   },
   {
@@ -518,61 +820,172 @@
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "13929791428",
+    "name": "14967125876",
     "tagType": "AtomicTag"
   },
   {
     "valueSource": "memory",
     "dataType": "Document",
-    "name": "12608231878",
+    "name": "14462290294",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16508017910",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17700809928",
+    "defaultValue": {
+      "comment_count": 0,
+      "has_kudoed": false,
+      "type": "Run",
+      "end_latlng": [
+        38.653569,
+        -121.181876
+      ],
+      "upload_id_str": "18799311812",
+      "id": 17700809928,
+      "kudos_count": 0,
+      "visibility": "everyone",
+      "athlete": {
+        "resource_state": 1,
+        "id": 141964929
+      },
+      "athlete_count": 1,
+      "resource_state": 2,
+      "max_speed": 4.24,
+      "from_accepted_tag": false,
+      "start_latlng": [
+        38.651541,
+        -121.189827
+      ],
+      "achievement_count": 0,
+      "name": "Lunch Run",
+      "commute": false,
+      "utc_offset": -25200.0,
+      "private": false,
+      "upload_id": 18799311812,
+      "distance": 2286.1,
+      "location_country": null,
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "has_heartrate": false,
+      "external_id": "33C5D6EB-45FD-408B-9C41-139CDBA6F95E-activity.fit",
+      "location_state": null,
+      "manual": false,
+      "gear_id": null,
+      "elev_low": 40.4,
+      "device_name": "Strava App",
+      "flagged": false,
+      "trainer": false,
+      "location_city": null,
+      "workout_type": null,
+      "total_photo_count": 0,
+      "elapsed_time": 1088,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "map": {
+        "resource_state": 2,
+        "summary_polyline": "ge|jFn_ubVYV_@h@]r@SLa@E]QoBi@y@Cy@MK?QAWDQAe@D_@FW@eAUc@QKIJ?JH^PVD\\JRBj@MvAM^D~@LV@DA^JXNR@j@Lh@T^?NUDATi@|@eANa@He@LULIf@KX@|@g@HA~@k@JQDUHMd@CDEJOJ[FGHATFDEDM@SCSKa@?M?IJOh@Ad@LDAp@i@@GWq@Ki@WwBCu@@e@Ak@FWDICKEcAOe@E]?MLMHAJETUFUESq@wAe@u@Q_@_@o@k@m@IEA@[EcACc@O_@YYGQIG?WKGKa@{@Kc@O_@QIS?",
+        "id": "a17700809928"
+      },
+      "average_speed": 2.604,
+      "moving_time": 878,
+      "sport_type": "Run",
+      "start_date": "2026-03-10T19:16:17Z",
+      "pr_count": 0,
+      "start_date_local": "2026-03-10T12:16:17Z",
+      "total_elevation_gain": 17.4,
+      "photo_count": 0,
+      "elev_high": 49.0
+    },
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14130443805",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "16770530508",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15201377495",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13726440192",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "13996161977",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14315079214",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14831561614",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "11980119169",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14553803639",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15868461122",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "15368722310",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "17039045355",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Document",
+    "name": "14886181291",
     "tagType": "AtomicTag"
   },
   {
     "valueSource": "memory",
     "dataType": "Document",
     "name": "15496499974",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14684430691",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15125459495",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "15925183416",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "12901654840",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14258464143",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "13985658550",
-    "tagType": "AtomicTag"
-  },
-  {
-    "valueSource": "memory",
-    "dataType": "Document",
-    "name": "14967125876",
     "tagType": "AtomicTag"
   }
 ]

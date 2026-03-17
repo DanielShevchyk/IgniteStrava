@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Strava_Logo.svg.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "ad",
+      "timestamp": "2026-03-17T16:32:37Z"
+    },
+    "size": 30961,
+    "lastModificationSignature": "0a429043f6f19ac889c34011960cd5fbafefef6d4867590bbed3f43a94d8b97b",
+    "height": 0
+  }
+}

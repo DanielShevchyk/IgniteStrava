@@ -1,0 +1,40 @@
+[
+  {
+    "name": "GitContext",
+    "typeId": null,
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "dataType": "String",
+        "name": "Author",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "String",
+        "name": "Branch",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "String",
+        "name": "CommitHash",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "String",
+        "name": "CommitMessage",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "DateTime",
+        "name": "LastUpdate",
+        "formatString": "yyyy-MM-dd h:mm:ss aa",
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

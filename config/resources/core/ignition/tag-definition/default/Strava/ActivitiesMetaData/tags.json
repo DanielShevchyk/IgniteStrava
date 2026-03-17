@@ -1,7 +1,7 @@
 [
   {
     "valueSource": "memory",
-    "dataType": "StringArray",
+    "dataType": "Int8Array",
     "name": "ArrayOfActivitiesID",
     "tagType": "AtomicTag"
   }
