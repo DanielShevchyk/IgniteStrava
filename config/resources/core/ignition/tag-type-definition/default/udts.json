@@ -6,60 +6,80 @@
       {
         "valueSource": "memory",
         "dataType": "String",
+        "documentation": "Author",
+        "tooltip": "Author",
         "name": "Author",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "String",
+        "documentation": "The currently checked-out local branch",
+        "tooltip": "The currently checked-out local branch",
         "name": "Branch",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "DateTime",
+        "documentation": "Date and time of Commit currently being used",
+        "tooltip": "Date and time of Commit currently being used",
         "name": "CommitDate",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "String",
+        "documentation": "The short identifier of the currently running code",
+        "tooltip": "The short identifier of the currently running code",
         "name": "CommitHash",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "String",
+        "documentation": "Last Commit Message",
+        "tooltip": "Last Commit Message",
         "name": "CommitMessage",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "Int4",
+        "documentation": "How many commits the local branch is behind the local cache of the remote branch",
+        "tooltip": "How many commits the local branch is behind the local cache of the remote branch",
         "name": "CommitsBehind",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "Boolean",
+        "documentation": "Is True if designer save is yet to be comitted",
+        "tooltip": "Is True if designer save is yet to be comitted",
         "name": "IsDirty",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "DateTime",
+        "documentation": "When the Ignition script last polled this data",
+        "tooltip": "When the Ignition script last polled this data",
         "name": "LastUpdate",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "String",
+        "documentation": "The most recent Git tag",
+        "tooltip": "The most recent Git tag",
         "name": "LatestRelease",
         "tagType": "AtomicTag"
       },
       {
         "valueSource": "memory",
         "dataType": "String",
+        "documentation": "Where the central repository is hosted.",
+        "tooltip": "Where the central repository is hosted.",
         "name": "RemoteURL",
         "tagType": "AtomicTag"
       }

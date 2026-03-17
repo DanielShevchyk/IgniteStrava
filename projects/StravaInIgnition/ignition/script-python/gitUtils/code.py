@@ -20,16 +20,26 @@ def updateGitTags(tag_provider="default", instance_name="GitInfo"):
             "name": udt_name,
             "tagType": "UdtType",
             "tags": [
-                {"name": "Branch", "valueSource": "memory", "dataType": "String"},
-                {"name": "CommitHash", "valueSource": "memory", "dataType": "String"},
-                {"name": "CommitMessage", "valueSource": "memory", "dataType": "String"},
-                {"name": "Author", "valueSource": "memory", "dataType": "String"},
-                {"name": "LastUpdate", "valueSource": "memory", "dataType": "DateTime"},
-                {"name": "IsDirty", "valueSource": "memory", "dataType": "Boolean"},
-                {"name": "LatestRelease", "valueSource": "memory", "dataType": "String"},
-                {"name": "CommitsBehind", "valueSource": "memory", "dataType": "Int4"},
-                {"name": "CommitDate", "valueSource": "memory", "dataType": "DateTime"},
-                {"name": "RemoteURL", "valueSource": "memory", "dataType": "String"}
+                {"name": "Branch", "valueSource": "memory", "dataType": "String",
+                "documentation": "The currently checked-out local branch", "toolTip": "The currently checked-out local branch"},
+                {"name": "CommitHash", "valueSource": "memory", "dataType": "String",
+                "documentation": "The short identifier of the currently running code", "toolTip": "The short identifier of the currently running code"},
+                {"name": "CommitMessage", "valueSource": "memory", "dataType": "String",
+                "documentation": "Last Commit Message", "toolTip": "Last Commit Message"},
+                {"name": "Author", "valueSource": "memory", "dataType": "String",
+                "documentation": "Author", "toolTip": "Author"},
+                {"name": "LastUpdate", "valueSource": "memory", "dataType": "DateTime", 
+                "documentation": "When the Ignition script last polled this data", "toolTip": "When the Ignition script last polled this data"},
+                {"name": "IsDirty", "valueSource": "memory", "dataType": "Boolean",
+                "documentation": "Is True if designer save is yet to be comitted", "toolTip": "Is True if designer save is yet to be comitted"},
+                {"name": "LatestRelease", "valueSource": "memory", "dataType": "String",
+                "documentation": "The most recent Git tag", "toolTip": "The most recent Git tag"},
+                {"name": "CommitsBehind", "valueSource": "memory", "dataType": "Int4",
+                "documentation": "How many commits the local branch is behind the local cache of the remote branch", "toolTip": "How many commits the local branch is behind the local cache of the remote branch"},
+                {"name": "CommitDate", "valueSource": "memory", "dataType": "DateTime",
+                "documentation": "Date and time of Commit currently being used", "toolTip": "Date and time of Commit currently being used"},
+                {"name": "RemoteURL", "valueSource": "memory", "dataType": "String",
+                "documentation": "Where the central repository is hosted.", "toolTip": "Where the central repository is hosted." }
             ]
         }
         system.tag.configure("{}_types_".format(base_provider), [udt_def], "m")
