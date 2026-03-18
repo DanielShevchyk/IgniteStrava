@@ -3,10 +3,5 @@
     "name": "GitInfoTest",
     "typeId": "GitContext",
     "tagType": "UdtInstance"
-  },
-  {
-    "name": "New Instance",
-    "typeId": "GitContext",
-    "tagType": "UdtInstance"
   }
 ]

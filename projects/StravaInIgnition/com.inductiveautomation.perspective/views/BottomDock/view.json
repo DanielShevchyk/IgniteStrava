@@ -72,6 +72,40 @@
               "source": "/system/images/MyImages/Strava_Logo.svg.png"
             },
             "type": "ia.display.image"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "newTab": true,
+                    "url": "https://github.com/DanielShevchyk/IgniteStrava"
+                  },
+                  "scope": "C",
+                  "type": "nav"
+                }
+              }
+            },
+            "meta": {
+              "name": "github_PNG65",
+              "tooltip": {
+                "enabled": true,
+                "text": "Click to open Git Source"
+              }
+            },
+            "position": {
+              "basis": "100px",
+              "grow": ".25"
+            },
+            "props": {
+              "fit": {
+                "height": 125,
+                "mode": "contain",
+                "width": 125
+              },
+              "source": "/system/images/github_PNG65.png"
+            },
+            "type": "ia.display.image"
           }
         ],
         "meta": {

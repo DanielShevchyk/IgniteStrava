@@ -75,6 +75,25 @@
               },
               "target": "",
               "visible": true
+            },
+            {
+              "backActionText": "",
+              "enabled": true,
+              "items": [],
+              "label": {
+                "icon": {
+                  "path": "material/insert_chart_outlined"
+                },
+                "text": "Stats"
+              },
+              "resetOnClick": false,
+              "showHeader": true,
+              "style": {
+                "classes": "",
+                "color": "#FCFCFC"
+              },
+              "target": "",
+              "visible": true
             }
           ],
           "style": {
