@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "type": "kafka"
+  },
+  "settings": {
+    "bootstrapServers": [],
+    "props": {
+      "client": "",
+      "consumer": ""
+    },
+    "saslMechanism": "GSSAPI",
+    "securityProtocol": "PLAINTEXT",
+    "ssl": {
+      "keystore": {},
+      "protocol": "TLSv1.3",
+      "truststore": {}
+    },
+    "username": ""
+  }
+}

@@ -1,5 +1,6 @@
 This is a Strava Visualizer project built in Ignition.
 Currently pulls Strava API v3 data within ignition scripting.
+<<<<<<< HEAD
 
 Current Capabilities:
 - Able to decode and visualize polyline into generic leaflet map components in its current state.
@@ -12,3 +13,8 @@ Current Capabilities:
 
 Ultimate goal is to have it become an exchange project that can be easily configured for anybody's account.
   - Design considerations are shaped off this point. Plus, API limitations that strava has for the free account. A lot of tag creation/storage for data because of these two points.
+=======
+Able to decode and visuallize polyline into generic leaflet map component in its current state.
+Ultimate goal is to have it become a exchange project that can be easily configured for anybodies account.
+  - Design considerations are shaped off this point. Plus, API limitations that strava has for the free account. Alot of tag creation/storage for data because of these two points.
+>>>>>>> dev

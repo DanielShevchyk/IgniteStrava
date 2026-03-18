@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "github-logo-png-hd-11659780126wgzczltlbm.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "ad",
+      "timestamp": "2026-03-18T20:24:00Z"
+    },
+    "size": 212057,
+    "lastModificationSignature": "e75e0d85fc1cf3c5d3acc0432a3b64c0256cf9129a4154a9dfa5084bbdbfec0e",
+    "height": 0
+  }
+}

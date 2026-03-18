@@ -1,10 +1,43 @@
 {
   "pages": {
     "/": {
-      "viewPath": "View"
+      "title": "",
+      "viewPath": "MainEmbeddedView"
     }
   },
   "sharedDocks": {
-    "cornerPriority": "top-bottom"
+    "bottom": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 25,
+        "viewParams": {},
+        "viewPath": "BottomDock"
+      }
+    ],
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 125,
+        "viewParams": {},
+        "viewPath": "DockedLeftContainer"
+      }
+    ]
   }
 }

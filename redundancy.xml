@@ -3,10 +3,10 @@
 <properties>
 <comment>Redundancy Settings</comment>
 <entry key="redundancy.activehistorylevel">Full</entry>
-<entry key="redundancy.autodetectlocalinterface">true</entry>
-<entry key="redundancy.bindinterface"></entry>
-<entry key="redundancy.gan.enableSsl">true</entry>
-<entry key="redundancy.gan.host"></entry>
+<entry key="redundancy.autodetectlocalinterface">false</entry>
+<entry key="redundancy.bindinterface">10.10.60.69</entry>
+<entry key="redundancy.gan.enableSsl">false</entry>
+<entry key="redundancy.gan.host">10.10.60.69</entry>
 <entry key="redundancy.gan.httpConnectTimeout">10000</entry>
 <entry key="redundancy.gan.httpReadTimeout">60000</entry>
 <entry key="redundancy.gan.pingMaxMissed">10</entry>

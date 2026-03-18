@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "github-logo-repository-computer-icons-github.jpg"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "JPEG",
+    "lastModification": {
+      "actor": "ad",
+      "timestamp": "2026-03-18T20:24:29Z"
+    },
+    "size": 29645,
+    "lastModificationSignature": "e50ee23f8101f0503b4ea744e58910a0acfc991507e471207e36cfab4fd3d513",
+    "height": 0
+  }
+}

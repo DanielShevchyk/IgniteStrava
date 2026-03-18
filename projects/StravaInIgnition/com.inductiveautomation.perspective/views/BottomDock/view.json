@@ -1,0 +1,128 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 26
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Current Build Label"
+            },
+            "position": {
+              "basis": "123px"
+            },
+            "props": {
+              "text": "Current Build:",
+              "textStyle": {
+                "fontFamily": "Roboto",
+                "fontSize": 20,
+                "textAlign": "Left"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {},
+                    "tagPath": "[default]GitInfoTest/Branch"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "textStyle": {
+                "color": "#FF0000",
+                "fontFamily": "Roboto",
+                "fontSize": 20,
+                "textAlign": "Left"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Strava_Logo_svg"
+            },
+            "position": {
+              "basis": "50px",
+              "grow": 1
+            },
+            "props": {
+              "fit": {
+                "mode": "contain"
+              },
+              "source": "/system/images/MyImages/Strava_Logo.svg.png"
+            },
+            "type": "ia.display.image"
+          },
+          {
+            "events": {
+              "dom": {
+                "onClick": {
+                  "config": {
+                    "newTab": true,
+                    "url": "https://github.com/DanielShevchyk/IgniteStrava"
+                  },
+                  "scope": "C",
+                  "type": "nav"
+                }
+              }
+            },
+            "meta": {
+              "name": "github_PNG65",
+              "tooltip": {
+                "enabled": true,
+                "text": "Click to open Git Source"
+              }
+            },
+            "position": {
+              "basis": "100px",
+              "grow": ".25"
+            },
+            "props": {
+              "fit": {
+                "height": 125,
+                "mode": "contain",
+                "width": 125
+              },
+              "source": "/system/images/github_PNG65.png"
+            },
+            "type": "ia.display.image"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "25px"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

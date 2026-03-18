@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "github_PNG65.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "ad",
+      "timestamp": "2026-03-18T20:25:50Z"
+    },
+    "size": 5271,
+    "lastModificationSignature": "5ffae83b443813b8522f48ffe2f59ad0db2bca259a88fb1c41ec56c99d8cd030",
+    "height": 0
+  }
+}
