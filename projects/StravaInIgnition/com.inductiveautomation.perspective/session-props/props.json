@@ -1,5 +1,7 @@
 {
-  "custom": {},
+  "custom": {
+    "viewSelected": "Home"
+  },
   "propConfig": {
     "props.auth": {
       "access": "PRIVATE",

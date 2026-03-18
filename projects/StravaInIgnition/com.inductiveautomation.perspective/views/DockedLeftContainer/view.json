@@ -1,0 +1,95 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 138
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "custom": {
+          "Selected": "Home"
+        },
+        "events": {
+          "component": {
+            "onItemClicked": {
+              "config": {
+                "script": "\tsystem.perspective.print(\"this is the click\" + str(self) + \"   \" + str(event))\n\tself.custom.Selected \u003d event[\"label\"]\n\tself.session.custom.viewSelected \u003d event[\"label\"]\n\tsystem.perspective.print(self.session.custom.viewSelected)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "MenuTree"
+        },
+        "position": {
+          "basis": "150px",
+          "grow": 1
+        },
+        "props": {
+          "items": [
+            {
+              "backActionText": "",
+              "enabled": true,
+              "label": {
+                "icon": {
+                  "path": "material/home"
+                },
+                "text": "Home"
+              },
+              "navIcon": {
+                "color": "",
+                "path": ""
+              },
+              "resetOnClick": false,
+              "showHeader": true,
+              "style": {
+                "classes": "",
+                "color": "#FCFCFC"
+              },
+              "target": "",
+              "visible": true
+            },
+            {
+              "backActionText": "",
+              "enabled": true,
+              "label": {
+                "icon": {
+                  "path": "material/map"
+                },
+                "text": "Map"
+              },
+              "navIcon": {
+                "color": "",
+                "path": "\n"
+              },
+              "resetOnClick": false,
+              "showHeader": true,
+              "style": {
+                "classes": "",
+                "color": "#FCFCFC"
+              },
+              "target": "",
+              "visible": true
+            }
+          ],
+          "style": {
+            "backgroundColor": "#E29156"
+          }
+        },
+        "type": "ia.navigation.menutree"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

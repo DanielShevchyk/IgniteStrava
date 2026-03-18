@@ -4,6 +4,11 @@
     "onStartup": "enabled",
     "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
   },
+  "com.inductiveautomation.connectors.kafka": {
+    "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Kafka Connector-module.modl",
+    "onStartup": "enabled",
+    "certFingerprint": "0299d53c38bdbe7ca79bd6c778a5bab884e4c813"
+  },
   "com.inductiveautomation.eam": {
     "filename": "C:\\Users\\dshevchyk\\Desktop\\PersonalProjects\\IgniteStrava\\user-lib\\modules\\Enterprise Administration-module.modl",
     "onStartup": "enabled",
